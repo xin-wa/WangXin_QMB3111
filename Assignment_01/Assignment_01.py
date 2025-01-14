@@ -1,3 +1,10 @@
-number = 1
+number = 4
 
-print((((((number * 2) + 5) * 50) + 1749) + 25) - 2000)
+number *= 2
+number += 5
+number *= 50
+number += 1749
+number += 25
+number -= 2000
+
+print (number)
